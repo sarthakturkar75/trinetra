@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://trinetratradehub.com/blogs/how-to.atom</id>
+  <link rel="alternate" type="text/html" href="https://trinetratradehub.com/blogs/how-to"/>
+  <link rel="self" type="application/atom+xml" href="https://trinetratradehub.com/blogs/how-to/tagged/news.atom"/>
+  <title>Wright Brothers Home Delivery - How-to</title>
+  <updated>2023-11-06T18:03:10+00:00</updated>
+  <author>
+    <name>Wright Brothers Home Delivery</name>
+  </author>
+  <entry>
+    <id>https://trinetratradehub.com/blogs/how-to/how-to-make-firecracker-salmon-muffins</id>
+    <published>2023-08-17T10:22:37+01:00</published>
+    <updated>2023-08-17T10:28:08+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://trinetratradehub.com/blogs/how-to/how-to-make-firecracker-salmon-muffins"/>
+    <title>How to make killer crack salmon muffins</title>
+    <author>
+      <name>Michelle Daly</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span data-mce-fragment="1">Watch our co-founder Robin as he channels the creativity of Instagram star Stella Drivas, aka @hungry.happens, and crafts</span><span data-mce-fragment="1"> his take on these irresistible killer crack salmon muffins!</span><p><a class="read-more" href="https://trinetratradehub.com/blogs/how-to/how-to-make-firecracker-salmon-muffins">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<p><span data-mce-fragment="1">Watch our co-founder Robin as he channels the creativity of Instagram star Stella Drivas, aka @hungry.happens, and crafts</span><span data-mce-fragment="1"> his take on these irresistible killer crack salmon muffins!</span></p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://trinetratradehub.com/blogs/how-to/how-to-make-sushi</id>
+    <published>2023-05-12T15:07:29+01:00</published>
+    <updated>2023-06-08T09:32:35+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://trinetratradehub.com/blogs/how-to/how-to-make-sushi"/>
+    <title>How to make sushi</title>
+    <author>
+      <name>Michelle Daly</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<span>Watch how to make a delicious set of maki rolls from scratch as Yuki goes through the steps to show Robin how to make her </span><span>very special Salmon Uramaki.</span><p><a class="read-more" href="https://trinetratradehub.com/blogs/how-to/how-to-make-sushi">More</a></p>]]>
+    </summary>
+    <content type="html">
+      <![CDATA[<span>Watch how to make a delicious set of maki rolls from scratch as Yuki goes through the steps to show Robin how to make her </span><span>very special Salmon Uramaki.</span>]]>
+    </content>
+  </entry>
+</feed>
