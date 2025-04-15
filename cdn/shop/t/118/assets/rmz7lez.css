@@ -1,87 +1,53 @@
-/*
- * The Typekit service used to deliver this font or fonts for use on websites
- * is provided by Adobe and is subject to these Terms of Use
- * http://www.adobe.com/products/eulas/tou_typekit. For font license
- * information, see the list below.
- *
- * century-gothic:
- *   - http://typekit.com/eulas/00000000000000007735ba11
- *   - http://typekit.com/eulas/00000000000000007735ba15
- *   - http://typekit.com/eulas/00000000000000007735ba19
- *   - http://typekit.com/eulas/00000000000000007735ba1f
- * proxima-nova:
- *   - http://typekit.com/eulas/00000000000000007735e60d
- *   - http://typekit.com/eulas/00000000000000007735e619
- *   - http://typekit.com/eulas/00000000000000007735e609
- *   - http://typekit.com/eulas/00000000000000007735e616
- *   - http://typekit.com/eulas/00000000000000007735e605
- *   - http://typekit.com/eulas/00000000000000007735e60e
- *
- * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
- */
-/*{"last_published":"2021-09-13 23:06:51 UTC"}*/
-
-@import url("https://p.typekit.net/p.css?s=1&k=rmz7lez&ht=tk&f=173.174.175.176.25136.25137.39200.39201.39202.39203&a=86992192&app=typekit&e=css");
-
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n6&v=3") format("opentype");
-font-display:swap;font-style:normal;font-weight:600;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i6&v=3") format("opentype");
-font-display:swap;font-style:italic;font-weight:600;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("opentype");
-font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("opentype");
-font-display:swap;font-style:italic;font-weight:400;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("opentype");
-font-display:swap;font-style:normal;font-weight:500;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-font-family:"proxima-nova";
-src:url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("opentype");
-font-display:swap;font-style:italic;font-weight:500;font-stretch:normal;
+    font-family: 'Oswald';
+    src: url('/cdn/shop/t/118/assets/fonts/oswald/Oswald-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-font-family:"century-gothic";
-src:url("https://use.typekit.net/af/40bdad/00000000000000007735ba11/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/40bdad/00000000000000007735ba11/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/40bdad/00000000000000007735ba11/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-font-display:swap;font-style:normal;font-weight:700;font-stretch:normal;
+/* Fallback classes for compatibility */
+.tk-proxima-nova,
+.tk-century-gothic {
+    font-family: 'Oswald', sans-serif;
 }
-
-@font-face {
-font-family:"century-gothic";
-src:url("https://use.typekit.net/af/0f9780/00000000000000007735ba15/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/0f9780/00000000000000007735ba15/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/0f9780/00000000000000007735ba15/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
-font-display:swap;font-style:italic;font-weight:700;font-stretch:normal;
-}
-
-@font-face {
-font-family:"century-gothic";
-src:url("https://use.typekit.net/af/9e55b6/00000000000000007735ba19/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/9e55b6/00000000000000007735ba19/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/9e55b6/00000000000000007735ba19/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
-font-display:swap;font-style:italic;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"century-gothic";
-src:url("https://use.typekit.net/af/78c6b9/00000000000000007735ba1f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/78c6b9/00000000000000007735ba1f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/78c6b9/00000000000000007735ba1f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
-}
-
-.tk-proxima-nova { font-family: "proxima-nova",sans-serif; }
-.tk-century-gothic { font-family: "century-gothic",sans-serif; }

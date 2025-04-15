@@ -683,13 +683,6 @@ footer {
     color: #fff
 }
 
-.payment-icons {
-    padding: 0
-}
-
-.payment-icon:not(:first-child):not(:last-child) {
-    margin: 0 4px
-}
 
 footer a:not(.footer-social__link) span {
     border-bottom: 1px solid transparent
@@ -740,13 +733,13 @@ footer a:hover:not(.footer-social__link) span {
     display: block
 }
 
-.header-logo svg {
+.header-logo img {
     display: block;
     width: 160px
 }
 
 @media screen and (min-width:640px) {
-    .header-logo svg {
+    .header-logo img {
         max-width: 220px;
         width: 22vw
     }
@@ -3040,7 +3033,7 @@ textarea {
 }
 
 .critical-hidden,
-.main-content .shopify-section {
+.main-content .section {
     display: inherit
 }
 
@@ -3418,11 +3411,6 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
     }
 }
 
-.payment-icons .icon {
-    fill: inherit;
-    height: 24px;
-    width: 38px
-}
 
 .social-icons .icon {
     height: 23px;
@@ -5307,12 +5295,12 @@ hr {
     width: 100%
 }
 
-.product-single__view-in-space[data-shopify-xr-hidden] {
+.product-single__view-in-space[data-xr-hidden] {
     visibility: hidden
 }
 
 @media only screen and (min-width:750px) {
-    .product-single__view-in-space[data-shopify-xr-hidden] {
+    .product-single__view-in-space[data-xr-hidden] {
         display: none
     }
 }
