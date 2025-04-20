@@ -7,7 +7,7 @@
         aria-label="Search" data-predictive-search-drawer>
         <div class="search-bar__interior">
             <div class="search-form__container" data-search-form-container>
-                <form class="search-form search-bar__form" action="/search" method="get" role="search">
+                <form class="search-form search-bar__form" action="javascript:void(0);" method="get" role="search">
                     <input type="hidden" name="type" value="product" />
                     <button class="search-bar__submit search-form__submit header-icon" type="submit"
                         data-search-form-submit>
@@ -28,7 +28,7 @@
                         <input type="text" name="q" placeholder="Search" role="combobox" aria-autocomplete="list"
                             aria-owns="predictive-search-results" aria-expanded="false" aria-label="Search"
                             aria-haspopup="listbox" class="search-form__input search-bar__input"
-                            data-predictive-search-drawer-input data-base-url="/search" />
+                            data-predictive-search-drawer-input data-base-url="javascript:void(0);" />
                         <input type="hidden" name="options[prefix]" value="last" aria-hidden="true" />
                         <div class="predictive-search-wrapper predictive-search-wrapper--drawer"
                             data-predictive-search-mount="drawer"></div>
@@ -65,7 +65,6 @@
                             <a class="header-v2__nav-link header-v2__nav-link--dropdown" href="/">
                                 <span>Home</span>
                             </a>
-
                         </li>
 
                         <li class="header-v2__nav-item">
@@ -184,7 +183,7 @@
                                                         href="/collections/grains-cereal/barley.html">Barley</a>
                                                 </li>
                                                 <li class="megamenu__child-item"><a
-                                                        href="/collections/grains-cereal/millets.html">Millets</a>
+                                                        href="/collections/grains-cereal/bajra.html">bajra</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -222,7 +221,12 @@
                             <a class="header-v2__nav-link header-v2__nav-link--dropdown" href="/pages/about-us.html">
                                 <span>About Us</span>
                             </a>
+                        </li>
 
+                        <li class="header-v2__nav-item">
+                            <a class="header-v2__nav-link header-v2__nav-link--dropdown" href="/pages/contact.html">
+                                <span>Contact Us</span>
+                            </a>
                         </li>
 
                     </ul>
@@ -272,8 +276,8 @@
             </div>
 
             <div class="header-v2__utilities-container">
-                <form class="search-form search-bar__form search-bar__form--desktop" action="/search" method="get"
-                    role="search">
+                <form class="search-form search-bar__form search-bar__form--desktop" action="javascript:void(0);"
+                    method="get" role="search">
                     <input type="hidden" name="type" value="product" />
                     <button class="search-bar__submit search-form__submit header-icon" type="submit"
                         data-search-form-submit>
@@ -293,7 +297,7 @@
                         <input type="text" name="q" placeholder="Search" role="combobox" aria-autocomplete="list"
                             aria-owns="predictive-search-results" aria-expanded="false" aria-label="Search"
                             aria-haspopup="listbox" class="search-form__input search-bar__input"
-                            data-predictive-search-drawer-input data-base-url="/search" />
+                            data-predictive-search-drawer-input data-base-url="javascript:void(0);" />
                         <input type="hidden" name="options[prefix]" value="last" aria-hidden="true" />
                         <div class="predictive-search-wrapper predictive-search-wrapper--drawer"
                             data-predictive-search-mount="drawer"></div>
@@ -304,30 +308,32 @@
         </header>
     </div>
 
-    <div class="nav-mobile is-hidden" data-mobile-nav style="visibility: hidden">
+    <!-- ✅ Refactored and Fully Functional Mobile Navigation -->
+    <div class="nav-mobile" data-mobile-nav style="visibility: hidden">
         <div class="nav-mobile__container">
-            <div class="nav-mobile__header">
 
+            <!-- HEADER -->
+            <div class="nav-mobile__header">
                 <div class="nav-mobile__header-left">
-                    <span class="header-icon" data-mobile-nav-back><svg width="64" height="64" viewBox="0 0 64 64"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span class="header-icon" data-mobile-nav-back>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.9">
                                 <path d="M41 8L18 31L41 54" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </g>
-                        </svg></span>
+                        </svg>
+                    </span>
                 </div>
-
-                <div href="/" class="nav-mobile__header-center">
-                    <a href="/" class="header-logo" title="Trinetra Tradehub">
-                        <img src="/cdn/shop/files/trinetra-logo.png" alt="Trinetra Tradehub Logo" />
+                <div class="nav-mobile__header-center">
+                    <a href="/" class="header-logo">
+                        <img src="/cdn/shop/files/trinetra-logo-light.png" alt="Trinetra Tradehub Logo"
+                            style="height: 66px; width: auto;" />
                         <p class="visually-hidden">Trinetra Tradehub Logo</p>
                     </a>
                 </div>
-
                 <div class="nav-mobile__header-right">
-                    <span class="header-icon" data-mobile-nav-close><svg width="64" height="64" viewBox="0 0 64 64"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span class="header-icon" data-mobile-nav-close>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.9">
                                 <path d="M54 11L10 55" stroke="currentColor" stroke-width="3" stroke-linecap="round"
                                     stroke-linejoin="round" />
@@ -337,19 +343,17 @@
                         </svg>
                     </span>
                 </div>
-
             </div>
 
+            <!-- MAIN MENU -->
             <div class="nav-mobile__content nav-mobile__content--index is-active" data-mobile-nav-content="index">
                 <div class="nav-mobile__items">
-
-                    <li>
-                        <a href="/" class="nav-mobile__item">Home</a>
-                    </li>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="products">Products
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="/" class="nav-mobile__item">Home</a>
+                    <button class="nav-mobile__item" data-mobile-nav-item="products">
+                        Products
+                        <span class="nav-mobile__right-arrow">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
@@ -357,12 +361,8 @@
                             </svg>
                         </span>
                     </button>
-
-                    <li>
-                        <a href="/pages/about-us.html" class="nav-mobile__item"> About Us</a>
-                    </li>
+                    <a href="/pages/about-us.html" class="nav-mobile__item">About Us</a>
                 </div>
-
                 <ul class="nav-mobile__footer-menu">
                     <li>
                         <a href="/pages/contact.html">
@@ -389,103 +389,83 @@
                         </a>
                     </li>
                 </ul>
-
             </div>
 
+            <!-- PRODUCTS MENU -->
             <div class="nav-mobile__content" data-mobile-nav-content="products" data-mobile-nav-parent="index">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Products</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="" data-src=""
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
+                        data-src="/cdn/shop/products/vegetables3.jpg"
                         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
                         data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
-
                 <div class="nav-mobile__items">
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="fruits">Fruits
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button class="nav-mobile__item" data-mobile-nav-item="fruits">Fruits<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="vegetables">Vegetables
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            </svg></span></button>
+                    <button class="nav-mobile__item" data-mobile-nav-item="vegetables">Vegetables<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="dry-fruits">Dry Fruits
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            </svg></span></button>
+                    <button class="nav-mobile__item" data-mobile-nav-item="dry-fruits">Dry Fruits<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="indian-spices">Indian Spices
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            </svg></span></button>
+                    <button class="nav-mobile__item" data-mobile-nav-item="indian-spices">Indian Spices<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="grains-cereal">Grains & Cereal
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            </svg></span></button>
+                    <button class="nav-mobile__item" data-mobile-nav-item="grains-cereal">Grains & Cereal<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
-                    <button class="nav-mobile__item" data-mobile-nav-item="dehydrated-products">Dehydrated Products
-                        <span class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                            </svg></span></button>
+                    <button class="nav-mobile__item" data-mobile-nav-item="dehydrated-products">Dehydrated Products<span
+                            class="nav-mobile__right-arrow"><svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.9">
                                     <path d="M22 54L45 31L22 8" stroke="#222222" stroke-width="3" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
-                            </svg>
-                        </span>
-                    </button>
-
+                            </svg></span></button>
                 </div>
-
             </div>
 
-            <!-- BEGIN: Mobile Nav Sections -->
+            <!-- CATEGORY SECTIONS (ADD MATCHING <div data-mobile-nav-content="X"> FOR EACH ABOVE BUTTON) -->
             <div class="nav-mobile__content" data-mobile-nav-content="fruits" data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Fruits</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Fruits"
+                        data-src="/cdn/shop/products/fruits2.jpg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
+                    <a href="/collections/fruits/mango.html" class="nav-mobile__item">Mango</a>
                     <a href="/collections/fruits/banana.html" class="nav-mobile__item">Banana</a>
                     <a href="/collections/fruits/fig.html" class="nav-mobile__item">Fig</a>
                     <a href="/collections/fruits/grapes.html" class="nav-mobile__item">Grapes</a>
-                    <a href="/collections/fruits/mango.html" class="nav-mobile__item">Mango</a>
                     <a href="/collections/fruits/orange.html" class="nav-mobile__item">Orange</a>
                     <a href="/collections/fruits/pomegranate.html" class="nav-mobile__item">Pomegranate</a>
                 </div>
@@ -494,17 +474,17 @@
             <div class="nav-mobile__content" data-mobile-nav-content="vegetables" data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Vegetables</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Vegetables"
+                        data-src="/cdn/shop/products/vegetables2.jpg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
+                    <a href="/collections/vegetables/onion.html" class="nav-mobile__item">Onion</a>
+                    <a href="/collections/vegetables/garlic.html" class="nav-mobile__item">Garlic</a>
+                    <a href="/collections/vegetables/eggplant.html" class="nav-mobile__item">Eggplant</a>
                     <a href="/collections/vegetables/cabbage.html" class="nav-mobile__item">Cabbage</a>
                     <a href="/collections/vegetables/corn.html" class="nav-mobile__item">Corn</a>
-                    <a href="/collections/vegetables/eggplant.html" class="nav-mobile__item">Eggplant</a>
-                    <a href="/collections/vegetables/garlic.html" class="nav-mobile__item">Garlic</a>
-                    <a href="/collections/vegetables/onion.html" class="nav-mobile__item">Onion</a>
                     <a href="/collections/vegetables/pumpkin.html" class="nav-mobile__item">Pumpkin</a>
                 </div>
             </div>
@@ -512,10 +492,10 @@
             <div class="nav-mobile__content" data-mobile-nav-content="dry-fruits" data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Dry Fruits</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Dry Fruits"
+                        data-src="/cdn/shop/products/dry-fruits1.jpg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
                     <a href="/collections/dry-fruits/almond.html" class="nav-mobile__item">Almond</a>
@@ -528,10 +508,10 @@
             <div class="nav-mobile__content" data-mobile-nav-content="indian-spices" data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Indian Spices</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Indian Spices"
+                        data-src="/cdn/shop/products/indian-spices2.jpg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
                     <a href="/collections/indian-spices/black-pepper.html" class="nav-mobile__item">Black Pepper</a>
@@ -552,18 +532,18 @@
             <div class="nav-mobile__content" data-mobile-nav-content="grains-cereal" data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Grains & Cereal</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Grains & Cereal"
+                        data-src="/cdn/shop/products/grains1.jpg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
-                    <a href="/collections/grains-cereal/barley.html" class="nav-mobile__item">Barley</a>
-                    <a href="/collections/grains-cereal/jowar.html" class="nav-mobile__item">Jowar</a>
-                    <a href="/collections/grains-cereal/maize.html" class="nav-mobile__item">Maize</a>
-                    <a href="/collections/grains-cereal/millets.html" class="nav-mobile__item">Millets</a>
                     <a href="/collections/grains-cereal/rice.html" class="nav-mobile__item">Rice</a>
                     <a href="/collections/grains-cereal/wheat.html" class="nav-mobile__item">Wheat</a>
+                    <a href="/collections/grains-cereal/maize.html" class="nav-mobile__item">Maize</a>
+                    <a href="/collections/grains-cereal/jowar.html" class="nav-mobile__item">Jowar</a>
+                    <a href="/collections/grains-cereal/barley.html" class="nav-mobile__item">Barley</a>
+                    <a href="/collections/grains-cereal/bajra.html" class="nav-mobile__item">bajra</a>
                 </div>
             </div>
 
@@ -571,10 +551,10 @@
                 data-mobile-nav-parent="products">
                 <div class="nav-mobile__banner">
                     <h3 class="nav-mobile__banner-title">Dehydrated Products</h3>
-                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt=""
-                        data-src="0&options=w_{width}"
-                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="1.5"
-                        data-sizes="auto" data-image />
+                    <img class="nav-mobile__banner-image image--fadein lazyload js" alt="Dehydrated Products"
+                        data-src="/cdn/shop/products/dehydrated-products3.jpeg"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="1.5003750937734435" data-sizes="auto" data-image />
                 </div>
                 <div class="nav-mobile__items">
                     <a href="/collections/dehydrated-products/carrot-flakes.html" class="nav-mobile__item">Carrot
@@ -590,112 +570,92 @@
                     <a href="/collections/dehydrated-products/spinach.html" class="nav-mobile__item">Spinach</a>
                 </div>
             </div>
-            <!-- END: Mobile Nav Sections -->
 
         </div>
-
     </div>
 
 
     <script>
-        window.addEventListener('DOMContentLoaded', function (e) {
+        window.addEventListener('DOMContentLoaded', function () {
+            // HEADER HEIGHT LOGIC
             var announcement = document.querySelector('.announcement-bar');
-            var announcementOffset = 0;
-            if (announcement) {
-                announcementOffset = announcement.offsetHeight;
-            }
+            var announcementOffset = announcement ? announcement.offsetHeight : 0;
             document.documentElement.style.setProperty('--announcement-height', announcementOffset + 'px');
+
             function setHeaderHeight() {
-                document.documentElement.style.setProperty(
-                    '--header-height',
-                    document.querySelector('.header-v2').offsetHeight + 'px'
-                );
+                var header = document.querySelector('.header-v2');
+                if (header) {
+                    document.documentElement.style.setProperty('--header-height', header.offsetHeight + 'px');
+                }
             }
             setHeaderHeight();
             window.addEventListener('resize', setHeaderHeight);
-        });
 
-        var html = document.querySelector('html');
-        var navHamburger = document.querySelector('[data-hamburger-menu]');
-        var navMobile = document.querySelector('[data-mobile-nav]');
-        var navBack = document.querySelector('[data-mobile-nav-back]');
-        var navClose = document.querySelector('[data-mobile-nav-close]');
-        var navContents = document.querySelectorAll('[data-mobile-nav-content]');
-        var navItems = document.querySelectorAll('[data-mobile-nav-item]');
-        var navSubmenus = document.querySelectorAll('[data-mobile-nav-submenu]');
-        var navItemsDesktop = document.querySelectorAll('.nav-header__item.has-megamenu');
+            // NAVIGATION LOGIC
+            var html = document.querySelector('html');
+            var navHamburger = document.querySelector('[data-hamburger-menu]');
+            var navMobile = document.querySelector('[data-mobile-nav]');
+            var navBack = document.querySelector('[data-mobile-nav-back]');
+            var navClose = document.querySelector('[data-mobile-nav-close]');
+            var navContents = document.querySelectorAll('[data-mobile-nav-content]');
+            var navItems = document.querySelectorAll('[data-mobile-nav-item]');
+            var navSubmenus = document.querySelectorAll('[data-mobile-nav-submenu]');
+            var navItemsDesktop = document.querySelectorAll('.nav-header__item.has-megamenu');
 
-        //
-        navItemsDesktop.forEach(function (navItemDesktop) {
-            navItemDesktop.addEventListener('mouseover', function () {
-                html.classList.add('js-drawer-open');
+            navItemsDesktop.forEach(function (item) {
+                item.addEventListener('mouseover', function () {
+                    html.classList.add('js-drawer-open');
+                });
+                item.addEventListener('mouseleave', function () {
+                    html.classList.remove('js-drawer-open');
+                });
             });
 
-            navItemDesktop.addEventListener('mouseleave', function () {
-                html.classList.remove('js-drawer-open');
-            });
-        });
-
-        // Open Mobile Navigation
-        navHamburger.addEventListener('click', function (e) {
-            html.classList.add('nav-mobile-open');
-            html.classList.add('js-drawer-open');
-            navMobile.style.visibility = '';
-            navMobile.classList.add('is-visible');
-        });
-
-        // Close Mobile Navigation
-        navClose.addEventListener('click', function (e) {
-            html.classList.remove('nav-mobile-open');
-            html.classList.remove('js-drawer-open');
-            navMobile.classList.remove('is-visible');
-            setTimeout(function () {
-                navMobile.style.visibility = 'hidden';
-            }, 300);
-        });
-
-        // Back button for Mobile Navigation
-        navBack.addEventListener('click', function (e) {
-            var navPrevContent = document
-                .querySelector('.nav-mobile__content.is-active')
-                .getAttribute('data-mobile-nav-parent');
-
-            if (!navPrevContent) {
-                navClose.click(); // Simulate close
-                return;
+            if (navHamburger && navMobile) {
+                navHamburger.addEventListener('click', function () {
+                    html.classList.add('nav-mobile-open', 'js-drawer-open');
+                    navMobile.style.visibility = '';
+                    navMobile.classList.add('is-visible');
+                });
             }
 
-            navContents.forEach(function (navContent) {
-                navContent.classList.remove('is-active');
+            if (navClose && navMobile) {
+                navClose.addEventListener('click', function () {
+                    html.classList.remove('nav-mobile-open', 'js-drawer-open');
+                    navMobile.classList.remove('is-visible');
+                    setTimeout(function () {
+                        navMobile.style.visibility = 'hidden';
+                    }, 300);
+                });
+            }
+
+            if (navBack) {
+                navBack.addEventListener('click', function () {
+                    var current = document.querySelector('.nav-mobile__content.is-active');
+                    var parent = current?.getAttribute('data-mobile-nav-parent');
+                    navContents.forEach(c => c.classList.remove('is-active'));
+                    if (parent) {
+                        document.querySelector(`[data-mobile-nav-content="${parent}"]`)?.classList.add('is-active');
+                    } else {
+                        navClose?.click();
+                    }
+                });
+            }
+
+            navItems.forEach(function (item) {
+                item.addEventListener('click', function (e) {
+                    var target = e.currentTarget.getAttribute('data-mobile-nav-item');
+                    navContents.forEach(c => c.classList.remove('is-active'));
+                    document.querySelector(`[data-mobile-nav-content="${target}"]`)?.classList.add('is-active');
+                });
             });
 
-            document.querySelector('[data-mobile-nav-content="' + navPrevContent + '"]').classList.add('is-active');
-        });
-
-        // Navigate the menu
-        navItems.forEach(function (navItem) {
-            navItem.addEventListener('click', function (e) {
-                var itemName = this.getAttribute('data-mobile-nav-item');
-                var navNextContent = document.querySelector('[data-mobile-nav-content="' + itemName + '"]');
-
-                navContents.forEach(function (navContent) {
-                    navContent.classList.remove('is-active');
+            navSubmenus.forEach(function (sub) {
+                sub.addEventListener('click', function () {
+                    const isActive = sub.classList.contains('is-active');
+                    navSubmenus.forEach(s => s.classList.remove('is-active'));
+                    if (!isActive) sub.classList.add('is-active');
                 });
-
-                navNextContent.classList.add('is-active');
-            });
-        });
-
-        // Nav submenus
-        navSubmenus.forEach(function (navSubmenu) {
-            navSubmenu.addEventListener('click', function (e) {
-                var isActive = this.classList.contains('is-active');
-
-                navSubmenus.forEach(function (navSubmenu) {
-                    navSubmenu.classList.remove('is-active');
-                });
-
-                if (!isActive) this.classList.add('is-active');
             });
         });
     </script>
@@ -708,7 +668,7 @@
             "name": "Trinetra Tradehub Pvt. Ltd.",
             "legalName": "Trinetra Tradehub Pvt. Ltd.",
             "url": "https://trinetratradehub.com/",
-            "logo": "/cdn/shop/files/trinetra-logo.png", 
+            "logo": "/cdn/shop/files/trinetra-logo-light.png", 
             "brand": "Trinetra Tradehub",
             "foundingDate": "2025",
             "alternateName": ["Trinetra"],
@@ -738,7 +698,7 @@
             }
             ]
         }
-        </script>
+    </script>
 
 </div>
 <!-- END sections: header-group -->

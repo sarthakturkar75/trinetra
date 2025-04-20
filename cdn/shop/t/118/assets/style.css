@@ -993,6 +993,11 @@ footer a:hover:not(.footer-social__link) span {
     border-bottom: 1px solid #eef0ed
 }
 
+.nav-mobile__right-arrow,
+.nav-mobile__right-arrow svg {
+  pointer-events: none;
+}
+
 .nav-mobile__right-arrow svg {
     height: 20px;
     position: absolute;
