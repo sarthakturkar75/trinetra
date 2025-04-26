@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-
-.about-us-banner {
-    width: 100vw;
-}
-
-@media (max-width: 768px) {
-    .about-us-banner {
-        width: 70vw;    /* 70% of screen width */
-        margin: 0 auto; /* center it */
-        height: 70vh;   /* optional: slightly smaller height for mobile */
-        border-radius: 12px; /* optional: soft edges on mobile */
-        overflow: hidden;
-    }
-}
-
 .is-article,
 .is-page {
     line-height: 26px
