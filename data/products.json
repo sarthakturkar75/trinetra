@@ -1,150 +1,150 @@
 [
     {
         "name": "Pomegranate",
-        "url": "/collections/fruits/pomegranate.html"
+        "url": "collections/fruits/pomegranate.html"
     },
     {
         "name": "Banana",
-        "url": "/collections/fruits/banana.html"
+        "url": "collections/fruits/banana.html"
     },
     {
         "name": "Mango",
-        "url": "/collections/fruits/mango.html"
+        "url": "collections/fruits/mango.html"
     },
     {
         "name": "Orange",
-        "url": "/collections/fruits/orange.html"
+        "url": "collections/fruits/orange.html"
     },
     {
         "name": "Grapes",
-        "url": "/collections/fruits/grapes.html"
+        "url": "collections/fruits/grapes.html"
     },
     {
         "name": "Fig",
-        "url": "/collections/fruits/fig.html"
+        "url": "collections/fruits/fig.html"
     },
     {
         "name": "Onion",
-        "url": "/collections/vegetables/onion.html"
+        "url": "collections/vegetables/onion.html"
     },
     {
         "name": "Garlic",
-        "url": "/collections/vegetables/garlic.html"
+        "url": "collections/vegetables/garlic.html"
     },
     {
         "name": "Fresh Green Chilli",
-        "url": "/collections/vegetables/green-chilli.html"
+        "url": "collections/vegetables/green-chilli.html"
     },
     {
         "name": "Corn",
-        "url": "/collections/vegetables/corn.html"
+        "url": "collections/vegetables/corn.html"
     },
     {
         "name": "Eggplant",
-        "url": "/collections/vegetables/eggplant.html"
+        "url": "collections/vegetables/eggplant.html"
     },
     {
         "name": "Cabbage",
-        "url": "/collections/vegetables/cabbage.html"
+        "url": "collections/vegetables/cabbage.html"
     },
     {
         "name": "Almond",
-        "url": "/collections/dry-fruits/almond.html"
+        "url": "collections/dry-fruits/almond.html"
     },
     {
         "name": "Cashew",
-        "url": "/collections/dry-fruits/cashew.html"
+        "url": "collections/dry-fruits/cashew.html"
     },
     {
         "name": "Raisin",
-        "url": "/collections/dry-fruits/raisin.html"
+        "url": "collections/dry-fruits/raisin.html"
     },
     {
         "name": "Apricot",
-        "url": "/collections/dry-fruits/apricot.html"
+        "url": "collections/dry-fruits/apricot.html"
     },
     {
         "name": "Dehydrated Onion",
-        "url": "/collections/dehydrated-products/dehydrated-onion.html"
+        "url": "collections/dehydrated-products/dehydrated-onion.html"
     },
     {
         "name": "Dehydrated Green Peas",
-        "url": "/collections/dehydrated-products/dehydrated-green-peas.html"
+        "url": "collections/dehydrated-products/dehydrated-green-peas.html"
     },
     {
         "name": "Dehydrated Potato",
-        "url": "/collections/dehydrated-products/dehydrated-potato.html"
+        "url": "collections/dehydrated-products/dehydrated-potato.html"
     },
     {
         "name": "Dehydrated Mushroom",
-        "url": "/collections/dehydrated-products/dehydrated-mushroom.html"
+        "url": "collections/dehydrated-products/dehydrated-mushroom.html"
     },
     {
         "name": "Carrot Flakes",
-        "url": "/collections/dehydrated-products/carrot-flakes.html"
+        "url": "collections/dehydrated-products/carrot-flakes.html"
     },
     {
         "name": "Spinach",
-        "url": "/collections/dehydrated-products/spinach.html"
+        "url": "collections/dehydrated-products/spinach.html"
     },
     {
         "name": "Turmeric Powder",
-        "url": "/collections/indian-spices/turmeric-powder.html"
+        "url": "collections/indian-spices/turmeric-powder.html"
     },
     {
         "name": "Red Chilli Powder",
-        "url": "/collections/indian-spices/red-chilli-powder.html"
+        "url": "collections/indian-spices/red-chilli-powder.html"
     },
     {
         "name": "Coriander Powder",
-        "url": "/collections/indian-spices/coriander-powder.html"
+        "url": "collections/indian-spices/coriander-powder.html"
     },
     {
         "name": "Cumin",
-        "url": "/collections/indian-spices/cumin.html"
+        "url": "collections/indian-spices/cumin.html"
     },
     {
         "name": "Cardamom",
-        "url": "/collections/indian-spices/cardamom.html"
+        "url": "collections/indian-spices/cardamom.html"
     },
     {
         "name": "Garam Masala",
-        "url": "/collections/indian-spices/garam-masala.html"
+        "url": "collections/indian-spices/garam-masala.html"
     },
     {
         "name": "Ginger",
-        "url": "/collections/indian-spices/ginger.html"
+        "url": "collections/indian-spices/ginger.html"
     },
     {
         "name": "Cinnamon",
-        "url": "/collections/indian-spices/cinnamon.html"
+        "url": "collections/indian-spices/cinnamon.html"
     },
     {
         "name": "Black Pepper",
-        "url": "/collections/indian-spices/black-pepper.html"
+        "url": "collections/indian-spices/black-pepper.html"
     },
     {
         "name": "Rice",
-        "url": "/collections/grains-cereal/rice.html"
+        "url": "collections/grains-cereal/rice.html"
     },
     {
         "name": "Wheat",
-        "url": "/collections/grains-cereal/wheat.html"
+        "url": "collections/grains-cereal/wheat.html"
     },
     {
         "name": "Jowar",
-        "url": "/collections/grains-cereal/jowar.html"
+        "url": "collections/grains-cereal/jowar.html"
     },
     {
         "name": "Maize",
-        "url": "/collections/grains-cereal/maize.html"
+        "url": "collections/grains-cereal/maize.html"
     },
     {
         "name": "Barley",
-        "url": "/collections/grains-cereal/barley.html"
+        "url": "collections/grains-cereal/barley.html"
     },
     {
         "name": "bajra",
-        "url": "/collections/grains-cereal/bajra.html"
+        "url": "collections/grains-cereal/bajra.html"
     }
 ]
