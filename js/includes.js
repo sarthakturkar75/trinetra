@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	};
 
 	// Load header dynamically
-	loadInclude("header-placeholder", "/partials/header.html");
+	loadInclude("header-placeholder", "../partials/header.html");
 });
 
 // ✅ Move nav script into a function so it can be called after header is loaded
